@@ -7,12 +7,15 @@ body {
 }
 
 .top-bar {
-  background-color: #0a1c39;
+  background-color: #091a36;
   font-family: sans-serif;
   font-style: oblique;
   color: #ffffff;
   padding: 5px 20px;
   border-bottom-left-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -22,9 +25,22 @@ body {
 }
 
 .logo {
-  position: absolute;
   max-width: 30px;
   max-width: 30px;
-  top: 0px;
-  right: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #08172f;
 }
