@@ -2,18 +2,29 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; 
 }
 
 .top-bar {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  background-color: #0a1c39;
+  font-family: sans-serif;
+  font-style: oblique;
+  color: #ffffff;
+  padding: 5px 20px;
+  border-bottom-left-radius: 50px;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
+}
+
+.logo {
+  position: absolute;
+  max-width: 30px;
+  max-width: 30px;
+  top: 0px;
+  right: 10px;
 }
